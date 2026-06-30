@@ -1,0 +1,55 @@
+Git Intro Assignment - Commit Graph
+====================================
+Repository: git_intro
+Author: Derrick McClain <mcclaide@oregonstate.edu>
+Command: git log --graph --all --decorate
+
+*   commit db8902ef066001287e631547145a5fc1671ff169 (HEAD -> main)
+|\  Merge: f587c59 734e234
+| | Author: Derrick McClain <mcclaide@oregonstate.edu>
+| | Date:   Mon Jun 29 20:30:00 2026 -0400
+| | 
+| |     merged main and featureA
+| |   
+| *   commit 734e234859b0cbbbbc84d83b8292b5c3bfb3316f (featureA)
+| |\  Merge: 20e35ee 53b818c
+| | | Author: Derrick McClain <mcclaide@oregonstate.edu>
+| | | Date:   Mon Jun 29 20:27:49 2026 -0400
+| | | 
+| | |     merged featureA and featureB
+| | | 
+| | * commit 53b818cedffaf4799bc77804453a776988b72683 (featureB)
+| | | Author: Derrick McClain <mcclaide@oregonstate.edu>
+| | | Date:   Mon Jun 29 20:12:11 2026 -0400
+| | | 
+| | |     added band
+| | | 
+| * | commit 20e35ee4151a88b8f73dd19724e7247c039d7f88
+| | | Author: Derrick McClain <mcclaide@oregonstate.edu>
+| | | Date:   Mon Jun 29 20:07:33 2026 -0400
+| | | 
+| | |     added color
+| | | 
+| * | commit d5d9350459060dcfddcb55a1b18629b1a183e976
+| | | Author: Derrick McClain <mcclaide@oregonstate.edu>
+| | | Date:   Mon Jun 29 20:06:22 2026 -0400
+| | | 
+| | |     added email
+| | | 
+* | | commit f587c596516813f24c2cd75204bdee5885ed805a
+| |/  Author: Derrick McClain <mcclaide@oregonstate.edu>
+|/|   Date:   Mon Jun 29 20:20:51 2026 -0400
+| |   
+| |       removed number
+| | 
+* | commit c5b1c4263a70db2a635ca696616541e09fe97c0b
+|/  Author: Derrick McClain <mcclaide@oregonstate.edu>
+|   Date:   Mon Jun 29 20:10:15 2026 -0400
+|   
+|       added number
+| 
+* commit 74c8ceffed8b98498857a80e2221f0d7d2814505
+  Author: Derrick McClain <mcclaide@oregonstate.edu>
+  Date:   Mon Jun 29 20:00:08 2026 -0400
+  
+      first commit
